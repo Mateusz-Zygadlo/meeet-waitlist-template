@@ -1,9 +1,6 @@
-import React from 'react';
+import React from 'react'
+import { Welcome } from './pages'
 
 export const App = () => {
-  return(
-    <div>
-      <h1 className="text-6xl">App</h1>
-    </div>
-  )
+  return <Welcome />
 }
